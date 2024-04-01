@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('git checkout'){
             steps{
-                git 'https://github.com/instana/robot-shop.git'
+                git 'https://github.com/lokesh7u/robot-shop.git'
             }
         }
         stage('Build'){
